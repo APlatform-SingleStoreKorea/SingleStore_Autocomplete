@@ -1,11 +1,11 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/f2fc06c5-fee0-487f-ab25-cd80eb79fef3">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/d40994f6-cb47-4802-8476-594a9b230a5f">
-    <img alt="IMAGE" src="[http://LIGHT_IMAGE_URL.png](https://github.com/user-attachments/assets/d40994f6-cb47-4802-8476-594a9b230a5f)" width="727" height="150"> 
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/b93fece3-8c1f-4f01-a895-2618330cba46">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/17bb4baf-e8c5-4d5b-8127-40b07b40697a">
+    <img alt="IMAGE" src="[http://LIGHT_IMAGE_URL.png](https://github.com/user-attachments/assets/17bb4baf-e8c5-4d5b-8127-40b07b40697a)" width="50%" > 
   </picture>
 
-  <img alt="IMAGE" src="https://github.com/user-attachments/assets/aa912464-e870-47fb-ab80-b42f71248e89" width="191" height="200">
+  <img alt="IMAGE" src="https://github.com/user-attachments/assets/19fa5e56-5baa-45da-8b2f-28ce0250536a" width="13%" >
   
 </p>
 
@@ -46,8 +46,8 @@ SingleStore Server version: 8.9.12
 
 <p align="center">   
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/613a5802-cbe3-41f8-9588-44e6c9a05208">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/468597a7-52e4-4e73-ab9f-6982afdfa483">
-    <img alt="IMAGE" src="[http://LIGHT_IMAGE_URL.png](https://github.com/user-attachments/assets/468597a7-52e4-4e73-ab9f-6982afdfa483)" width="519" height="150"> 
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/0c1bd269-124e-4644-b5a7-01e9dfd9666f">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/6be26831-3cf0-4dfc-b735-507ec4bebc88">
+    <img alt="IMAGE" src="[http://LIGHT_IMAGE_URL.png](https://github.com/user-attachments/assets/6be26831-3cf0-4dfc-b735-507ec4bebc88)" width="50%"> 
   </picture>
 </p>
