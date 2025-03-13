@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BM25 Autocomplete Demo by AP</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/AP_icon.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+    <h1>BM25 Autocomplete Demo (n-gram + Fuzzy)</h1>
+    <div class="autocomplete-container">
+        <input type="text" id="search" onkeyup="fetchSuggestions()" autocomplete="off" />
+        <button class="search-icon" type="button" onclick="clearSearch()">🔍</button>
+        <ul id="suggestions"></ul>
+    </div>     
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="{{ url_for('static', filename='images/AP_footer.png') }}" alt="에이플랫폼 로고" class="footer-logo">
+            </div>
+            <div class="footer-right">
+                <img src="{{ url_for('static', filename='images/logo_primary_singlestore_black.png') }}" alt="싱글스토어어 로고" class="footer-logo">
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>

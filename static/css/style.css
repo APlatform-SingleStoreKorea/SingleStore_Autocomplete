@@ -1,0 +1,152 @@
+/* body 스타일 */
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    padding: auto;
+    background-color: #F2F2F2;
+    justify-content: center;
+    border: 2px solid #D199FF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* 제목 스타일 */
+h1 {
+    color: #000000;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+h2 {
+    color: #525252;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* 자동완성 컨테이너 스타일 */
+.autocomplete-container {
+    position: relative;
+    width: 60%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* 검색창 스타일 */
+#search {
+    width: calc(100% - 53px);
+    height: 100%;
+    padding: 14px 20px;
+    border: 2px solid #F2F2F2;
+    border-radius: 12px 0 0 12px; 
+    box-sizing: border-box;
+}
+
+#search:focus {
+    outline: none;
+    border-color: #820DDF;
+    box-shadow: 0 0 0 3px rgba(82, 82, 82, 0.1);
+}
+
+/* 자동완성 목록 스타일 */
+#suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #F2F2F2;
+    border: 1px solid #D199FF; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+#suggestions li {
+    padding: 12px 20px;
+    color: #000000;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer; 
+}
+
+#suggestions li:last-child {
+    border-bottom: none;
+}
+
+#suggestions li:hover {
+    background-color: #f8f9fa;
+}
+
+#suggestions li span.count {
+    color: gray;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+
+/* 돋보기 버튼 스타일 */
+.search-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%; 
+    width: 50px; 
+    background-color: #D199FF;
+    border: none;
+    border-radius: 0 12px 12px 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+.search-icon:hover {
+    background-color: #820DDF; 
+}
+
+/* 기존 검색 아이콘 제거 */
+.autocomplete-container::before {
+    content: none; 
+}
+
+/* Footer 스타일 */
+footer {
+    background-color: #F2F2F2;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+
