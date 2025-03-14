@@ -16,13 +16,13 @@
 SingleStore 공식 블로그에서 제공하는 DEMO를 한국어로 변형한 한글 버전입니다.
 
 ---
-**데모 영상 링크**: 
+**[데모 영상 링크](https://youtu.be/hASn7xABmv8?si=y8rVkeqwVNHCUuSK)**
 
-**에이플랫폼 공식 카페 링크**:
+**[에이플랫폼 공식 카페 링크](https://cafe.naver.com/aplatformbiz)**
 
-**에이플랫폼 공식 티스토리 링크**:
+**[에이플랫폼 공식 티스토리 링크](https://a-platform.tistory.com/154)**
 
-**에이플랫폼 공식 네이버 블로그 링크**:
+**[에이플랫폼 공식 네이버 블로그 링크](https://blog.naver.com/a-platformbiz/223795569438)**
 
 ---
 ## 개발 환경 
